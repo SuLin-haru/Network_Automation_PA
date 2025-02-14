@@ -13,7 +13,7 @@
       api_key: 'LUFRPT1lNVhoaXdNYXI3NUNlUGs2dStOUnBkdVd6NjQ9ZVZMV2wrQ2xwWnVmQVBzOGJGRnBmbk9sdVlJVWdMcVgvVFBIVnM0Sk9qZlJiNzdJVnRhQWJ3cFJJQ3cvRytzTA=='
 
   tasks:
-    - name: Issue firewall shutdown command
+    - name: Firewall Shutdown
       paloaltonetworks.panos.panos_op:
         provider: '{{ palo_provider }}'
         cmd: '<request><shutdown><system></system></shutdown></request>'
