@@ -4,7 +4,7 @@
   connection: local
   
   collections:
-      - 'paloaltonetworks.panos'
+    - paloaltonetworks.panos
 
   vars:
     palo_provider:
