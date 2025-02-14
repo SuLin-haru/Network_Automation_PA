@@ -1,0 +1,8 @@
+all:
+  children:
+    firewalls:
+      hosts:
+        PA44:
+          ansible_host: 192.168.100.44
+          ansible_user: admin
+          ansible_password: 1qaz!QAZ
