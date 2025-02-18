@@ -1,14 +1,14 @@
 - name: Palo Alto Playbook
-  hosts: PA44
+  hosts: PA45
   gather_facts: false
   connection: local
   
   vars:
     palo_provider:
-      ip_address: '192.168.100.44'
+      ip_address: '192.168.100.45'
       username: 'apidmin'
       password: '2wsx@WSX'
-      api_key: ''
+      api_key: 'LUFRPT14c2UyZms2Wk5LQ2R0VDFKamZJUHJLNG9tNE09ZVZMV2wrQ2xwWnVmQVBzOGJGRnBmdlVoZ0d0WXo4c2syYmROZEJMMktMcG9oYUJpWm5nRkNzRzJhWjJ6TURPUw=='
 
   tasks:
     - name: Issue firewall shutdown command
